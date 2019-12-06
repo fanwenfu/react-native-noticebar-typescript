@@ -21,23 +21,23 @@ class Demo extends Component<props, state> {
       noticeList: [
         {
           id: 1,
-          title: 'This is Notice Bar!'
+          title: '张三！！！'
         },
         {
           id: 2,
-          title: 'Notice Bar coming!!'
+          title: '李四！！！'
         }
       ]
     }
   }
 
   // noticebar change event
-  handleChange = (index) => {
+  onChange = (index) => {
     console.log(`Current index is ${index}.` )
   }
 
   // render item
-  renderBarItem = (item:any, index:number) => {
+  renderItem = (item:any, index:number) => {
     return (
       <View>
         <Text numberOfLines={1}>{item.title}</Text>
@@ -48,14 +48,13 @@ class Demo extends Component<props, state> {
   render() {
     return (
       <View>
-        <Text>NoticeBar Demo</Text>
         <NoticesBar
           data={noticeList}
           delay={3000}
           duration={500}
           scrollHeight={28}
-          onChange={this.handleChange.bind(this)}
-          renderItem={this.renderBarItem.bind(this)}
+          onChange={this.onChange.bind(this)}
+          renderItem={this.renderItem.bind(this)}
         />
       </View>
     )
