@@ -36,10 +36,8 @@ export default class NoticesBar extends Component<props, state> {
 
   constructor(props: props) {
     super(props);
-    let translateValue = new Animated.ValueXY({ x: 0, y: 0 });
-    translateValue.addListener(({ x, y }) => {});
     this.state = {
-      translateValue: translateValue,
+      translateValue: new Animated.ValueXY({ x: 0, y: 0 }),
       scrollHeight: this.props.scrollHeight,
       content: [],
       tempValue: 0,
@@ -88,9 +86,6 @@ export default class NoticesBar extends Component<props, state> {
   componentWillUnmount() {
     if (this.animation) {
       clearTimeout(this.animation);
-    }
-    if (this.state.translateValue) {
-      // this.state.translateValue.removeAllListeners();
     }
   }
   startAnimation = () => {
