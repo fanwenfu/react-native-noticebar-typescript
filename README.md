@@ -1,18 +1,18 @@
-# react-native-noticebar-ts
+# react-native-noticebar-typescript
 ## react-native竖向滚动通知栏（公告栏）
 
 ### install 使用
 ```npm
-$ npm i react-native-noticebar-ts
+$ npm i react-native-noticebar-typescript
 ```
 ```yarn
-$ yarn add react-native-noticebar-ts
+$ yarn add react-native-noticebar-typescript
 ```
 
 # Usage
 
 ```
-import NoticeBar from 'react-native-noticebar-ts'
+import NoticeBar from 'react-native-noticebar-typescript'
 
 class Demo extends Component<props, state> {
   constructor(props) {

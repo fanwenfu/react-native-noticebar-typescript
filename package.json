@@ -1,5 +1,5 @@
 {
-  "name": "react-native-noticebar-ts",
+  "name": "react-native-noticebar-typescript",
   "version": "0.0.1",
   "description": "react-native竖向滚动通知栏（公告栏）",
   "main": "NoticeBar.tsx",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fanwenfu/react-native-noticebar.git"
+    "url": "git+https://github.com/fanwenfu/react-native-noticebar-typescript.git"
   },
   "keywords": [
     "react-native-noticebar",
@@ -19,8 +19,8 @@
   ],
   "author": "fanwenfu",
   "license": "ISC",
-  "homepage": "https://github.com/fanwenfu/react-native-noticebar-ts",
+  "homepage": "https://github.com/fanwenfu/react-native-noticebar-typescript",
   "bugs": {
-    "url": "https://github.com/fanwenfu/react-native-noticebar-ts/issues"
+    "url": "https://github.com/fanwenfu/react-native-noticebar-typescript/issues"
   }
 }
