@@ -1,7 +1,7 @@
 {
   "name": "react-native-noticebar-typescript",
   "version": "1.0.0",
-  "description": "react-native竖向滚动通知栏（公告栏）",
+  "description": "React Native NoticeBar 竖向滚动通知栏、公告栏",
   "main": "NoticeBar.tsx",
   "scripts": {
     "test": "test"
