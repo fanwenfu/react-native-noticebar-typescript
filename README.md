@@ -1,5 +1,5 @@
 # react-native-noticebar-typescript
-## react-native竖向滚动通知栏（公告栏）
+## React Native NoticeBar 竖向滚动通知栏、公告栏
 
 ### install 使用
 ```npm
